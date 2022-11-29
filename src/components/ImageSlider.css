@@ -1,0 +1,63 @@
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.image {
+  width: 100%;
+  height: 600px;
+}
+.slide {
+  height: 100vh;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 4rem;
+  color: rgb(15, 9, 9);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  opacity: 90%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  font-size: 4rem;
+  color: rgb(15, 9, 9);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  opacity: 90%;
+}
+
+cardstxt {
+  position: absolute;
+  text-align: left;
+  top: 30%;
+  padding-left: 70px;
+  padding-right: 50px;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+cardstitle {
+  position: absolute;
+  text-align: left;
+  top: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 40px;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
